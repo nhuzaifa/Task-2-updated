@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<h2>Fill your interests</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quae?</p>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+
+            margin: 10VW;
+        }
+    </style>
+    <form>
+        <div>
+
+            <label for="name">Name</label>
+            <br>
+            <input type="name" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">DOB</label>
+            <br>
+            <input type="date" name="date" id="date">
+        
+        <br>
+        </div>
+        <div>
+            <form action="">
+                <br>
+                <label for="Interest">Select your interest</label>
+                <br>
+                <select name="Interest" id="Interest">
+                    
+                    <option value="" id="lightcolor">-Select-</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="SQA">SQA</option>
+                    <option value="Business Analysis">Business Analysis</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <br>
+            <label for="individual">Individual</label>
+            <Input type="checkbox" name="individual" id="individual">
+            </Input>
+            <label for="organization">organization</label>
+            <Input type="checkbox" name="organization" id="organization">
+            </Input>
+        </div>
+        <br>
+        <div>
+            <label>About you</label>
+            <br>
+            <textarea name="" id="" cols="50" rows="8"></textarea>    
+        </div>
+        <br>
+        <button>Send Details</button>
+    </form>
+
+</body>
+
+</html>
